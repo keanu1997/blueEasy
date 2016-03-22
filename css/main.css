@@ -303,6 +303,53 @@ section.twitter {
 /* END TWITTER SECTION */
 
 
+/* WHOIS SECTION */
+section.whois {
+    background: url(../img/background-images/whois-bg.jpg)no-repeat;
+    background-size: 100% 100%;
+    padding: 90px 0;
+}
+
+.whois .intro {
+    margin-bottom: 35px;
+}
+
+.whois .text-box p {
+    margin-bottom: 40px;
+}
+/*END WHOIS SECTION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* costumer helper class */
 .flex-sb {
     display: flex;
