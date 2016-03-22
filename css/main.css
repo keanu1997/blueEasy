@@ -275,6 +275,34 @@ section.default-section {
 /* END DEFAULT-SECTION SECTION */
 
 
+/* TWITTER SECTION */
+section.twitter {
+    background: #4bcaff;
+    padding: 90px 0;
+}
+
+.twitter .intro {
+    margin-bottom: 35px;
+}
+
+.twitter-bird {
+    width: 40px;
+    align-self: center;
+}
+
+.twitter-bird img {
+    width: 100%;
+}
+
+.twitter p {
+    color: #fff;
+    font-size: 1.75rem;
+    font-family: SegoeUI Light;
+    font-weight: lighter;
+}
+/* END TWITTER SECTION */
+
+
 /* costumer helper class */
 .flex-sb {
     display: flex;
@@ -311,6 +339,10 @@ span.underline-white {
 
 span.underline-gray {
     border-bottom: 2px solid #515f67;
+}
+
+span.twitter-profile {
+    font-weight: bold;
 }
 /* END SPAN CLASSES*/
 
