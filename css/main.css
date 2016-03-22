@@ -285,7 +285,7 @@ section.twitter {
     margin-bottom: 35px;
 }
 
-.twitter-bird {
+.twitter-bird  {
     width: 40px;
     align-self: center;
 }
@@ -319,7 +319,62 @@ section.whois {
 }
 /*END WHOIS SECTION*/
 
+/* TESTIMONIALS SECTION */
+section.testimonials {
+    padding: 90px 0;
+}
 
+.testimonials h2, .testimonials p {
+    color: #515f67;
+}
+
+.testimonials .intro {
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.testimonials p {
+    font-size: 1.75rem;
+    font-family: SegoeUI Light;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+.testimonials a {
+    font-size: 0.875rem;
+    font-family: SegoeUI Bold;
+}
+/* END TESTIMONIALS SECTION */
+
+/* CONTACT SECTION */
+section.contact {
+    background: url(../img/background-images/contact-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 90px 0;
+}
+
+.contact .intro {
+    margin-bottom: 35px;
+}
+
+.form-group label {
+    font-size: 0.875rem;
+    font-family: SegoeUI Bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input, .form-group textarea {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.form-group textarea {
+    resize: none;
+    margin-top: 50px;
+    width: 100%;
+}
+/* END CONTACT SECTION */
 
 
 
