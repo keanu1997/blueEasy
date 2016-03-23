@@ -420,7 +420,21 @@ section.contact {
 
 
 
+/* FOOTER SECTION */
+footer {
+    background: #353f47;
+    padding: 80px 0;
+}
 
+footer ul {
+    width: 290px;
+}
+
+footer li, footer p {
+    font-size: 0.75rem;
+    color: #515f67;
+}
+/* END FOOTER SECTION */
 
 
 
