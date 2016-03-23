@@ -357,11 +357,22 @@ section.contact {
     margin-bottom: 35px;
 }
 
+.form-group {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
 .form-group label {
     font-size: 0.875rem;
     font-family: SegoeUI Bold;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .form-group input, .form-group textarea {
@@ -371,9 +382,40 @@ section.contact {
 
 .form-group textarea {
     resize: none;
-    margin-top: 50px;
     width: 100%;
+    height: 215px;
 }
+
+.contact-top {
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    width: 46%;
+}
+
+.contact-info p {
+    margin-bottom: 40px;
+}
+
+.contact-info ul li {
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: SegoeUI Bold;
+}
+
+.submit input {
+    padding: 25px 160px;
+    width: 370px;
+    font-size: 0.875rem;
+    font-family: SegoeUI Bold;
+    border: none;
+    background: #4bcaff;
+    color: #fff;
+    width: ;
+}
+
+
 /* END CONTACT SECTION */
 
 
