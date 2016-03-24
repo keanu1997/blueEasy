@@ -166,6 +166,7 @@ header {
 .navbar {
     background: rgba(53, 63, 70, 0.7);
     padding: 30px 0;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -208,6 +209,14 @@ section.services {
     margin-bottom: 30px;
 }
 
+.service-items {
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 280px;
+}
+
 .service-item h3 {
     margin: 10px 0;
 }
@@ -236,7 +245,7 @@ section.portfolio {
 }
 
 .portfolio-item {
-    width: 23.5%;
+    width: 274px;
     margin-bottom: 20px;
 }
 
@@ -441,30 +450,6 @@ footer li, footer p {
 /* END FOOTER SECTION */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* costumer helper class */
 .flex-sb {
     display: flex;
@@ -509,7 +494,183 @@ span.twitter-profile {
 /* END SPAN CLASSES*/
 
 
+/*===== MEDIA QUERIES =========================*/
+@media screen and (max-width: 1170px) {
+    .container{
+        padding: 0 10px;
+    }
 
+    /* PORTFOLIO SECTION */
+    .portfolio-items {
+        justify-content: space-around;
+    }
+
+    .portfolio-item {
+        margin-right: 10px;
+    }
+    /* END PORTFOLIO SECTION */
+
+    /* WHOIS SECTION */
+    .text-boxes {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* END WHOIS SECTION */
+}
+
+@media screen and (max-width: 1130px) {
+    /* SERVICE SECTION */
+    .service-items {
+        justify-content: space-around;
+    }
+
+    .service-item {
+        margin-bottom: 25px;
+    }
+
+    /* END SERVICE SECTION */
+}
+
+@media screen and (max-width: 1000px) {
+    /* DEFAULT-SECTION SECTION */
+    .default-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .default-section .text-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .default-section .vimeo-box {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .default-section .vimeo-box iframe {
+        width: 100%;
+    }
+    /* DEFAULT-SECTION SECTION */
+}
+
+@media screen and (max-width: 680px) {
+    .nav-item {
+        margin: 18px 12px 0 0;
+    }
+
+    /* sections padding */
+    section.services, section.portfolio, section.default-section, section.twitter, section.whois, section.testimonials, section.contact {
+        padding: 20px 0;
+    }
+    /* end sections padding */
+
+    /* HERO SECTION */
+    section.hero {
+        padding: 50px 0;
+    }
+    /* END HERO SECTION */
+
+    
+
+    /* CONTACT SECTION */
+    .contact-top {
+        flex-direction: column-reverse;
+    }
+
+    .contact-info {
+        margin-bottom: 25px;
+    }
+    /* END CONTACT SECTION*/
+
+    /* FOOTER */
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul {
+        margin-bottom: 25px;
+    }
+    /* END FOOTER */
+}
+
+
+@media screen and (max-width: 660px) {
+    /* HEADER */
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-items {
+        margin-top: 10px;
+    }
+    /* END HEADER */
+}
+
+@media screen and (max-width: 569px) {
+    .intro {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .intro .twitter-bird, .intro .double-quote {
+        margin-left: 20px;
+    }
+
+    /* SERVICE SECTION */
+    .service-item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .service-item:last-child {
+        margin-bottom: 0;
+    }
+    /* END SERVICE SECTION */
+
+    /* PORTFOLIO SECTION */
+    .portfolio .intro {
+        flex-direction: column;
+    }
+    /* END PORTFOLIO SECTION */
+
+    /* TWITTER SECTION */
+    .twitter p {
+        text-align: center;
+    }
+    /* END TWITTER SECTION */
+
+    /* TESTIMONIALS SECTION */
+    .testimonials .container {
+        text-align: center;
+    }
+    /* END TESTIMONIALS SECTION */
+
+    /* CONTACT SECTION */
+    .contact form {
+        text-align: center;
+    }
+
+    .contact-top {
+        align-items: center;
+    }
+
+    .submit, .submit input {
+        width: 100%;
+        padding: 25px 0;
+    }
+    /* END CONTACT SECTION*/
+}
+
+@media screen and (max-width: 420px) {
+    .nav-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/*===== END MEDIA QUERIES =========================*/
 
 
 
